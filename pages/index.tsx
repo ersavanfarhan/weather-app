@@ -63,13 +63,14 @@ export default function Home() {
     <div id="container" className="w-full">
 
       <div id="background" className="w-full absolute -z-10">
-        <img className="w-full" src="../background-weather.jpg" />
+        <img className="w-full xs:hidden" src="../background-weather.jpg" />
+        <img className="w-full xs:block hidden" src="../background-weather - small.jpg" />
       </div>
 
-      <div id="main" className="px-28 py-5 h-min-screen text-white z-0">
+      <div id="main" className="xs:p-5 sm:p-5 md:px-20 px-28 py-10 h-min-screen text-white z-0">
         <div id="header" className="grid">
-          <label className="text-5xl font-black">OPEN WEATHER APP</label>
-          <label className="text-md">
+          <label className="xs:text-3xl sm:text-3xl text-5xl font-black">OPEN WEATHER APP</label>
+          <label className="xs:text-xs sm:text-xs text-md">
             Use this app to get an information of the actual weather condition
             in the city arround the world
           </label>
@@ -124,7 +125,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div id="error" className="mt-5 text-center text-3xl font-black hidden">
+        <div id="error" className="mt-5 text-center xs:text-xl sm:text-xl text-3xl font-black hidden">
           <label>Sorry, data is not found</label>
         </div>
       </div>
