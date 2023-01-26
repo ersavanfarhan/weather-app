@@ -63,8 +63,8 @@ export default function Home() {
     <div id="container" className="w-full">
 
       <div id="background" className="w-full absolute -z-10">
-        <img className="w-full xs:hidden" src="../background-weather.jpg" />
-        <img className="w-full xs:block hidden" src="../background-weather - small.jpg" />
+        <img className="w-full h-screen xs:hidden sm:hidden" src="../background-weather.jpg" />
+        <img className="w-full h-screen xs:block sm:block hidden" src="../background-weather - small.jpg" />
       </div>
 
       <div id="main" className="xs:p-5 sm:p-5 md:px-20 px-28 py-10 h-min-screen text-white z-0">
