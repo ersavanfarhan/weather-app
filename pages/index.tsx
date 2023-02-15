@@ -62,7 +62,7 @@ export default function Home() {
   return (
     <div id="container" className="w-full">
 
-      <div id="background" className="w-full absolute -z-10">
+      <div id="background" className="w-full h-screen absolute -z-10">
         <img className="w-full h-screen xs:hidden sm:hidden" src="../background-weather.jpg" />
         <img className="w-full h-screen xs:block sm:block hidden" src="../background-weather - small.jpg" />
       </div>
